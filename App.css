@@ -1,0 +1,23 @@
+html{
+  background-color: #f0c014;
+}
+.board-row{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #36d3f2;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+.play h5{
+  font-size: 100px;
+}
+
+.board-con{
+  margin: 20px;
+}
