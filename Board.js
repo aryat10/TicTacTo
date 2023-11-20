@@ -4,7 +4,7 @@ import Sqare from "./Sqaure"
 
 const Board = () => {
   const [state, setState] = useState(Array(9).fill(null))
-  const [isXturn, setisXturn] = useState(true)
+  const [isXturn, setisXturn] = useState(true);
 
   const winner = () => {
     const winlogic = [
